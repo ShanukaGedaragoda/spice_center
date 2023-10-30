@@ -13,12 +13,13 @@ INSERT INTO `Person` (`id`, `name`) VALUES
 (3, 'Dinesh'),
 (4, 'Karthik');
 
+
 CREATE TABLE `test` (
   `id` int(11) NOT NULL,
   `age` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
-INSERT INTO `Person` (`id`, `age`) VALUES
+INSERT INTO `test` (`id`, `age`) VALUES
 (1, '12'),
 (2, '14');
