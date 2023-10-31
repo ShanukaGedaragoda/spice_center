@@ -794,13 +794,10 @@
                   <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
 
                   <select name="person" class="input-field">
-                    <option value="1-person">1 Person</option>
-                    <option value="2-person">2 Person</option>
-                    <option value="3-person">3 Person</option>
-                    <option value="4-person">4 Person</option>
-                    <option value="5-person">5 Person</option>
-                    <option value="6-person">6 Person</option>
-                    <option value="7-person">7 Person</option>
+                    <option value="resturant">For Resturant</option>
+                    <option value="family">For Family</option>
+                    <option value="businessson">For Business</option>
+                    <option value="personal">For Personal</option>
                   </select>
 
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
@@ -818,21 +815,10 @@
                   <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
                   <select name="person" class="input-field">
-                    <option value="08:00am">08 : 00 am</option>
-                    <option value="09:00am">09 : 00 am</option>
-                    <option value="010:00am">10 : 00 am</option>
-                    <option value="011:00am">11 : 00 am</option>
-                    <option value="012:00am">12 : 00 am</option>
-                    <option value="01:00pm">01 : 00 pm</option>
-                    <option value="02:00pm">02 : 00 pm</option>
-                    <option value="03:00pm">03 : 00 pm</option>
-                    <option value="04:00pm">04 : 00 pm</option>
-                    <option value="05:00pm">05 : 00 pm</option>
-                    <option value="06:00pm">06 : 00 pm</option>
-                    <option value="07:00pm">07 : 00 pm</option>
-                    <option value="08:00pm">08 : 00 pm</option>
-                    <option value="09:00pm">09 : 00 pm</option>
-                    <option value="10:00pm">10 : 00 pm</option>
+                    <option value="08:00am">Monthly</option>
+                    <option value="09:00am">Weekly</option>
+                    <option value="010:00am">Daily</option>
+                    <option value="011:00am">with Order</option>
                   </select>
 
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
@@ -843,9 +829,9 @@
               <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
 
               <button type="submit" class="btn btn-secondary">
-                <span class="text text-1">Book A Table</span>
+                <span class="text text-1">Request Subscription</span>
 
-                <span class="text text-2" aria-hidden="true">Book A Table</span>
+                <span class="text text-2" aria-hidden="true">Request Subscription</span>
               </button>
 
             </form>
@@ -854,32 +840,23 @@
 
               <h2 class="headline-1 text-center">Contact Us</h2>
 
-              <p class="contact-label">Booking Request</p>
+              <p class="contact-label">Ask About Subscription</p>
 
-              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+88-123-123456</a>
+              <a href="tel:+88123123456" class="body-1 contact-number hover-underline">+94 (77) 2289561</a>
 
               <div class="separator"></div>
 
               <p class="contact-label">Location</p>
 
               <address class="body-4">
-                Restaurant St, Delicious City, <br>
-                London 9578, UK
+                Gamunupura mawatha,Kaduwela <br>
+                Colombo,
+                Sri Lanka
               </address>
 
-              <p class="contact-label">Lunch Time</p>
+              
 
-              <p class="body-4">
-                Monday to Sunday <br>
-                11.00 am - 2.30pm
-              </p>
-
-              <p class="contact-label">Dinner Time</p>
-
-              <p class="body-4">
-                Monday to Sunday <br>
-                05.00 pm - 10.00pm
-              </p>
+             
 
             </div>
 
@@ -912,7 +889,7 @@
                   <img src="./assets/images/features-icon-1.png" width="100" height="80" loading="lazy" alt="icon">
                 </div>
 
-                <h3 class="title-2 card-title">Hygienic Food</h3>
+                <h3 class="title-2 card-title">Fresh Spices</h3>
 
                 <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
 
@@ -940,7 +917,7 @@
                   <img src="./assets/images/features-icon-3.png" width="100" height="80" loading="lazy" alt="icon">
                 </div>
 
-                <h3 class="title-2 card-title">Skilled Chefs</h3>
+                <h3 class="title-2 card-title">Skilled Staff</h3>
 
                 <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
 
@@ -954,7 +931,7 @@
                   <img src="./assets/images/features-icon-4.png" width="100" height="80" loading="lazy" alt="icon">
                 </div>
 
-                <h3 class="title-2 card-title">Event & Party</h3>
+                <h3 class="title-2 card-title">Clear</h3>
 
                 <p class="label-1 card-text">Lorem Ipsum is simply dummy printing and typesetting.</p>
 
@@ -980,88 +957,7 @@
         - #EVENT
       -->
 
-      <section class="section event bg-black-10" aria-label="event">
-        <div class="container">
-
-          <p class="section-subtitle label-2 text-center">Recent Updates</p>
-
-          <h2 class="section-title headline-1 text-center">Upcoming Event</h2>
-
-          <ul class="grid-list">
-
-            <li>
-              <div class="event-card has-before hover:shine">
-
-                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
-                  <img src="./assets/images/event-1.jpg" width="350" height="450" loading="lazy"
-                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
-
-                  <time class="publish-date label-2" datetime="2022-09-15">15/09/2022</time>
-                </div>
-
-                <div class="card-content">
-                  <p class="card-subtitle label-2 text-center">Food, Flavour</p>
-
-                  <h3 class="card-title title-2 text-center">
-                    Flavour so good you’ll try to eat with your eyes.
-                  </h3>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="event-card has-before hover:shine">
-
-                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
-                  <img src="./assets/images/event-2.jpg" width="350" height="450" loading="lazy"
-                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
-
-                  <time class="publish-date label-2" datetime="2022-09-08">08/09/2022</time>
-                </div>
-
-                <div class="card-content">
-                  <p class="card-subtitle label-2 text-center">Healthy Food</p>
-
-                  <h3 class="card-title title-2 text-center">
-                    Flavour so good you’ll try to eat with your eyes.
-                  </h3>
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="event-card has-before hover:shine">
-
-                <div class="card-banner img-holder" style="--width: 350; --height: 450;">
-                  <img src="./assets/images/event-3.jpg" width="350" height="450" loading="lazy"
-                    alt="Flavour so good you’ll try to eat with your eyes." class="img-cover">
-
-                  <time class="publish-date label-2" datetime="2022-09-03">03/09/2022</time>
-                </div>
-
-                <div class="card-content">
-                  <p class="card-subtitle label-2 text-center">Recipie</p>
-
-                  <h3 class="card-title title-2 text-center">
-                    Flavour so good you’ll try to eat with your eyes.
-                  </h3>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <a href="#" class="btn btn-primary">
-            <span class="text text-1">View Our Blog</span>
-
-            <span class="text text-2" aria-hidden="true">View Our Blog</span>
-          </a>
-
-        </div>
-      </section>
+      
 
     </article>
   </main>
@@ -1087,15 +983,17 @@
           </a>
 
           <address class="body-4">
-            Restaurant St, Delicious City, London 9578, UK
+          Gamunupura mawatha,Kaduwela,
+                Colombo,
+                Sri Lanka
           </address>
 
-          <a href="mailto:booking@grilli.com" class="body-4 contact-link">booking@grilli.com</a>
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">info@spice.com</a>
 
-          <a href="tel:+88123123456" class="body-4 contact-link">Booking Request : +88-123-123456</a>
+          <a href="tel:+88123123456" class="body-4 contact-link">Subscribe Request : +94 (77) 2289561</a>
 
           <p class="body-4">
-            Open : 09:00 am - 01:00 pm
+            24 Hours
           </p>
 
           <div class="wrapper">
@@ -1178,10 +1076,8 @@
 
       <div class="footer-bottom">
 
-        <p class="copyright">
-          &copy; 2022 Grilli. All Rights Reserved | Crafted by <a href="https://github.com/codewithsadee"
-            target="_blank" class="link">codewithsadee</a>
-        </p>
+      
+      
 
       </div>
 
