@@ -25,7 +25,7 @@ $mysqli->close();
 <?=template_header('Home')?>
 
 <div class="featured">
-    <h2>Gadgets</h2>
+    <h2>All Spice Products</h2>
     <p>Essential gadgets for everyday use</p>
 </div>
 <div class="recentlyadded content-wrapper">
