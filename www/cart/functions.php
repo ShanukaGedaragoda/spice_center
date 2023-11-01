@@ -10,9 +10,15 @@ echo <<<EOT
 		<title>$title</title>
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+
+        <style>
+			.header {
+				background-color: #f0f0f0; 
+			}
+		</style>
 	</head>
 	<body>
-        <header>
+        <header class="header">
             <div class="content-wrapper">
                 <h1>Spice Center</h1>
                 <nav>
@@ -41,6 +47,11 @@ echo <<<EOT
                 <p>&copy; $year, Shopping Cart System</p>
             </div>
         </footer>
+        <style>
+            .footer {
+                background-color: #f0f0f0; /* Replace with your desired background color */
+            }
+        </style>
     </body>
 </html>
 EOT;
