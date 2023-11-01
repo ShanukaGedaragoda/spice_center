@@ -1,5 +1,11 @@
 <?php
 session_start();
+
+if (!isset($_SESSION['email'])) {
+    header("Location: ../auth/index.php");
+    exit();
+}
+
 // Include functions and connect to the database using PDO MySQL
 include 'functions.php';
 $pdo = mysqli_connect('db', 'chathu', 'chathu', "spicecenter");
@@ -8,4 +14,3 @@ $page = isset($_GET['page']) && file_exists($_GET['page'] . '.php') ? $_GET['pag
 // Include and show the requested page
 include $page . '.php';
 ?>
-
