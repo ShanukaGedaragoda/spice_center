@@ -9,7 +9,7 @@
 <body>
 <!-- partial:index.partial.html -->
 <div class="payment-title">
-        <h1>Payment Information</h1>
+        <h1>Add your Payment Information here</h1>
     </div>
     <div class="container preload">
         <div class="creditcard">
@@ -110,13 +110,14 @@
         </div>
     </div>
     <div class="form-container">
+        <form action="paymentcomplete/index.php">
         <div class="field-container">
             <label for="name">Name</label>
-            <input id="name" maxlength="20" type="text">
+            <input id="name" maxlength="20" type="text" required>
         </div>
         <div class="field-container">
             <label for="cardnumber">Card Number</label><span id="generatecard">generate random</span>
-            <input id="cardnumber" type="text" pattern="[0-9]*" inputmode="numeric">
+            <input id="cardnumber" type="text" pattern="[0-9]*" inputmode="numeric" required>
             <svg id="ccicon" class="ccicon" width="750" height="471" viewBox="0 0 750 471" version="1.1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -124,14 +125,17 @@
         </div>
         <div class="field-container">
             <label for="expirationdate">Expiration (mm/yy)</label>
-            <input id="expirationdate" type="text" pattern="[0-9]*" inputmode="numeric">
+            <input id="expirationdate" type="text"  inputmode="numeric" required>
         </div>
         <div class="field-container">
             <label for="securitycode">Security Code</label>
-            <input id="securitycode" type="text" pattern="[0-9]*" inputmode="numeric">
+            <input id="securitycode" type="text"  inputmode="numeric" required>
         </div>
-        <button style="background-color: #4CAF50; color: white; font-size: 18px; border: none; padding: 12px 24px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">Make Payment</button>
-
+        <br>
+        <a href="paymentcomplete/index.php">
+            <button type="submit" style="background-color: #4CAF50; color: white; font-size: 18px; border: none; padding: 12px 24px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">Make Payment</button>
+        </a>
+</form>
     </div>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/imask/3.4.0/imask.min.js'></script><script  src="./script.js"></script>
