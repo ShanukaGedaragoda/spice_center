@@ -23,3 +23,15 @@ CREATE TABLE `test` (
 INSERT INTO `test` (`id`, `age`) VALUES
 (1, '12'),
 (2, '14');
+
+
+CREATE DATABASE spicecenter;
+USE spicecenter;
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL UNIQUE,
+    phone VARCHAR(15) NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
