@@ -22,7 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         $insert_query = "INSERT INTO users (name, email, phone, password) VALUES ('$name', '$email', '$phone', '$password')";
         if (mysqli_query($conn, $insert_query)) {
-            echo "Registration successful. <a href='index.php'>Login here</a>";
+            // echo "Registration successful. <a href='index.php'>Login here</a>";
+            header("Location: index.php");
         } else {
             echo "Error: " . mysqli_error($conn);
         }

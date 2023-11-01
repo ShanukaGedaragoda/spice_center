@@ -6,7 +6,6 @@ $conn = mysqli_connect('db', 'chathu', 'chathu', 'spicecenter');
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $password = mysqli_real_escape_string($conn, $_POST['password']);
@@ -21,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             if (password_verify($password, $row['password'])) {
                 // Password is correct, set session variables and redirect to a secure page
                 $_SESSION['email'] = $row['email'];
-                header("Location: secure_page.php");
+                header("Location: ../home/index.php");
             } else {
                 echo "Invalid password. <a href='index.php'>Try again</a>";
             }
@@ -31,7 +30,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     } else {
         echo "Error: " . mysqli_error($conn);
     }
-
     mysqli_close($conn);
 }
 ?>
