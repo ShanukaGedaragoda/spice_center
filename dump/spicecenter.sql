@@ -25,9 +25,6 @@ INSERT INTO `test` (`id`, `age`) VALUES
 (2, '14');
 
 
-CREATE DATABASE spicecenter;
-USE spicecenter;
-
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL,

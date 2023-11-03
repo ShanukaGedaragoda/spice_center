@@ -20,7 +20,9 @@ echo <<<EOT
 	<body>
         <header class="header">
             <div class="content-wrapper">
+            <a href="../home">
                 <h1>Spice Center</h1>
+                </a> 
                 <nav>
                     <a href="index.php">Home</a>
                     <a href="index.php?page=products">Products</a>

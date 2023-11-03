@@ -17,7 +17,7 @@ if (!isset($_SESSION['email'])) {
   <!-- 
     - primary meta tags
   -->
-  <title>Grilli - Amazing & Delicious Food</title>
+  <title>Spice Center - Amazing & Delicious Spices</title>
   <meta name="title" content="Grilli - Amazing & Delicious Food">
   <meta name="description" content="This is a Restaurant html template made by codewithsadee">
 
@@ -987,7 +987,7 @@ if (!isset($_SESSION['email'])) {
         <div class="footer-brand has-before has-after">
 
           <a href="#" class="logo">
-            <img src="./assets/images/logo.svg" width="160" height="50" loading="lazy" alt="grilli home">
+            <img src="./assets/images/spicecenterlogo.png" width="160" height="50" loading="lazy" alt="Spice home">
           </a>
 
           <address class="body-4">
@@ -996,7 +996,7 @@ if (!isset($_SESSION['email'])) {
                 Sri Lanka
           </address>
 
-          <a href="mailto:booking@grilli.com" class="body-4 contact-link">info@spice.com</a>
+          <a href="mailto:booking@grilli.com" class="body-4 contact-link">info@spicecenter.com</a>
 
           <a href="tel:+88123123456" class="body-4 contact-link">Subscribe Request : +94 (77) 2289561</a>
 
